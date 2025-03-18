@@ -1,0 +1,231 @@
+# Chinese (Simplified) language file for cState
+# Version 6.0
+
+- id: languageCode
+  translation: zh-Hans
+- id: languageName
+  translation: Chinese(Simplified)
+- id: languageNameShort
+  translation: ZHS
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: 服务不可用
+- id: isDisrupted
+  translation: 服务受阻
+- id: isNotice
+  translation: 请查阅公告
+- id: isOk
+  translation: 服务正常
+
+# No JS warning
+- id: noScriptingIntro
+  translation: 哦不! 看起来你没有启用 JavaScript. 请
+- id: noScriptingLink
+  translation: 启用 JavaScript
+- id: noScriptingOutro
+  translation: 以优化您在本网站的使用体验.
+
+- id: thisIsDown
+  translation: 停止运行
+- id: thisIsDisrupted
+  translation: 运行受阻
+- id: thisIsNotice
+  translation: 维护中
+- id: thisIsOk
+  translation: 运行正常
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: 上次更新
+- id: justNow
+  translation: 刚刚
+- id: someTimeAgo
+  translation: 前
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: 年
+- id: monthsAgo
+  translation: 个月
+- id: daysAgo
+  translation: 天
+- id: hoursAgo
+  translation: 小时
+- id: minsAgo
+  translation: 分钟
+- id: secondsAgo
+  translation: 秒
+
+- id: autoRefreshNotice
+  translation: 将每5分钟刷新一次
+
+# Incidents
+- id: incidents
+  translation: 事件
+- id: incidentHistory
+  translation: 事件历史
+
+- id: resolved
+  translation: 已解决 # if it's less than a min
+- id: inUnderAMinute
+  translation: 不到一分钟 # continuing the last string
+- id: resolvedAfter
+  translation: Resolved after # + 19 min
+- id: ofDowntime
+  translation: of downtime
+
+- id: downtimeOngoing
+  translation: 此问题尚未解决
+
+
+- id: calmBeforeTheStorm
+  translation: 是暴风雨前的平静吗?
+- id: noIncidentsDesc
+  translation: 此状态页面未记录任何事件. 这可能是因为状态页面所有者(或所有者们)最近才设置了他们的状态页面/没有发生停机, 或者没有记录任何停机.
+
+
+- id: continueReading
+  translation: 继续阅读
+- id: prev
+  translation: 上一个
+- id: next
+  translation: 下一个
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: 返回
+- id: backToTop
+  translation: 返回顶部
+- id: poweredBy
+  translation: Powered by
+
+- id: notFound
+  translation: 这里没有任何内容.
+- id: notFoundText
+  translation: 这可能是我们的问题. 也许我们移动了某个资源, 现在它不见了, 也有可能是您尝试查看的资源为空. 但您是否介意再次检查链接?
+
+- id: subscribeViaRss
+  translation: 通过 RSS 订阅
+- id: toAllUpdates
+  translation: 所有更新
+- id: or
+  translation: 或
+- id: onlyThisFeed
+  translation: 此订阅源
+
+##
+## v3
+##
+- id: entries
+  translation: 条目
+- id: newestToOldest
+  translation: 从最新到最旧
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: 看起来这个系统不存在或从未记录过任何停机时间.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: 根据平均数据, 最近这个系统大约停机了
+- id: averageSystemsDowntimeSecondPart
+  translation: 分钟.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: 在
+- id: weeksAgo
+  translation: " 周前"
+- id: yearAgo
+  translation: " 年前"
+
+##
+## v6
+##
+
+- id: incidentMaxAgeNotice
+  translation: "Not showing incidents older than from {{ .MaxAgeYears }} years"
+- id: loading
+  translation: "Loading"
+- id: chart
+  translation: "chart"
+- id: getSupport
+  translation: "Get support"
+- id: subscribe
+  translation: "Subscribe"
+- id: subscribeDescription
+  translation: "Subscribe to updates from this status page."
+- id: rss
+  translation: "RSS"
+- id: email
+  translation: "Email"
+- id: discord
+  translation: "Discord"
+- id: slack
+  translation: "Slack"
+- id: webhook
+  translation: "Webhook"
+- id: webhookUrl
+  translation: "Webhook URL"
+- id: embed
+  translation: "Embed"
+- id: embedDescription
+  translation: "You can embed this status page in your own website or application. Simply copy the following HTML snippet and paste it in to get a pop-up message if there are disruptions:"
+- id: copy
+  translation: "Copy"
+- id: embedDisclaimer
+  translation: "Looking for more information about this embed and how you can use it?"
+- id: learnMore
+  translation: "Learn more here"
+- id: pushNotifications
+  translation: "Push notifications"
+- id: pushNotificationsDescription
+  translation: "You can subscribe to this status page via push notifications through your browser. You will have to do this on every device you want to receive notifications on. Please note that this feature is subject to browser support and may not work on all devices as expected."
+- id: pushNotificationsDisclaimer
+  translation: "We recommend choosing a different method of notification if you need critical updates to be delivered as soon as possible."
+- id: API
+  translation: "API"
+- id: APIdescription
+  translation: "You can use our API to integrate the information and updates from this status page into your own website or application. Simply make a GET request to the following URL:"
+- id: APIdisclaimer
+  translation: "Please note that the API may be subject to rate limiting."
+- id: getAllUpdates
+  translation: "Get all updates"
+- id: getSomeUpdates
+  translation: "Get updates only from some systems"
+- id: openDropdown
+  translation: "Open dropdown"
+- id: closeDropdown
+  translation: "Close dropdown"
+- id: automated
+  translation: "Automated"
+- id: thisPostWasAutomaticallyGenerated
+  translation: "This post was automatically generated."
+- id: readDocumentation
+  translation: "Read documentation"
+- id: copied
+  translation: "Copied!"
+- id: copyToClipboard
+  translation: "Copy to clipboard"
+- id: open
+  translation: "Open"
