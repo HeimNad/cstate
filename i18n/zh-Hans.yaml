@@ -78,9 +78,9 @@
 - id: inUnderAMinute
   translation: 不到一分钟 # continuing the last string
 - id: resolvedAfter
-  translation: Resolved after # + 19 min
+  translation: 解决经过 # + 19 min
 - id: ofDowntime
-  translation: of downtime
+  translation: 的停机时间
 
 - id: downtimeOngoing
   translation: 此问题尚未解决
@@ -108,7 +108,7 @@
 - id: backToTop
   translation: 返回顶部
 - id: poweredBy
-  translation: Powered by
+  translation: "技术支持:" 
 
 - id: notFound
   translation: 这里没有任何内容.
@@ -164,21 +164,21 @@
 ##
 
 - id: incidentMaxAgeNotice
-  translation: "Not showing incidents older than from {{ .MaxAgeYears }} years"
+  translation: "不显示超过 {{ .MaxAgeYears }} 年前的事件"
 - id: loading
-  translation: "Loading"
+  translation: "加载中"
 - id: chart
-  translation: "chart"
+  translation: "图表"
 - id: getSupport
-  translation: "Get support"
+  translation: "获取帮助"
 - id: subscribe
-  translation: "Subscribe"
+  translation: "订阅"
 - id: subscribeDescription
-  translation: "Subscribe to updates from this status page."
+  translation: "订阅此状态页的更新通知"
 - id: rss
   translation: "RSS"
 - id: email
-  translation: "Email"
+  translation: "电子邮件"
 - id: discord
   translation: "Discord"
 - id: slack
@@ -188,44 +188,44 @@
 - id: webhookUrl
   translation: "Webhook URL"
 - id: embed
-  translation: "Embed"
+  translation: "嵌入"
 - id: embedDescription
-  translation: "You can embed this status page in your own website or application. Simply copy the following HTML snippet and paste it in to get a pop-up message if there are disruptions:"
+  translation: "您可以将此状态页嵌入到自己的网站或应用程序中. 只需复制以下 HTML 代码片段并粘贴, 即可在出现中断时显示弹出提示. "
 - id: copy
-  translation: "Copy"
+  translation: "复制"
 - id: embedDisclaimer
-  translation: "Looking for more information about this embed and how you can use it?"
+  translation: "需要了解更多有关嵌入及其使用方法的信息吗?"
 - id: learnMore
-  translation: "Learn more here"
+  translation: "点击此处了解更多"
 - id: pushNotifications
-  translation: "Push notifications"
+  translation: "推送通知"
 - id: pushNotificationsDescription
-  translation: "You can subscribe to this status page via push notifications through your browser. You will have to do this on every device you want to receive notifications on. Please note that this feature is subject to browser support and may not work on all devices as expected."
+  translation: "您可以通过浏览器订阅此状态页的推送通知, 每个设备都需要单独设置. 请注意, 此功能依赖于浏览器支持, 可能并非在所有设备上均能正常工作. "
 - id: pushNotificationsDisclaimer
-  translation: "We recommend choosing a different method of notification if you need critical updates to be delivered as soon as possible."
+  translation: "如果您需要尽快获取关键更新, 建议选择其他通知方式."
 - id: API
   translation: "API"
 - id: APIdescription
-  translation: "You can use our API to integrate the information and updates from this status page into your own website or application. Simply make a GET request to the following URL:"
+  translation: "您可以使用我们的 API 将此状态页的信息和更新集成到您自己的网站或应用程序中. 只需向以下 URL 发送 GET 请求: "
 - id: APIdisclaimer
-  translation: "Please note that the API may be subject to rate limiting."
+  translation: "请注意, API 可能会受到速率限制."
 - id: getAllUpdates
-  translation: "Get all updates"
+  translation: "获取所有更新"
 - id: getSomeUpdates
-  translation: "Get updates only from some systems"
+  translation: "仅获取部分系统的更新"
 - id: openDropdown
-  translation: "Open dropdown"
+  translation: "展开下拉菜单"
 - id: closeDropdown
-  translation: "Close dropdown"
+  translation: "收起下拉菜单"
 - id: automated
-  translation: "Automated"
+  translation: "自动生成"
 - id: thisPostWasAutomaticallyGenerated
-  translation: "This post was automatically generated."
+  translation: "这个帖子是自动生成的."
 - id: readDocumentation
-  translation: "Read documentation"
+  translation: "阅读文档"
 - id: copied
-  translation: "Copied!"
+  translation: "已复制!"
 - id: copyToClipboard
-  translation: "Copy to clipboard"
+  translation: "复制到剪贴板"
 - id: open
-  translation: "Open"
+  translation: "打开"
